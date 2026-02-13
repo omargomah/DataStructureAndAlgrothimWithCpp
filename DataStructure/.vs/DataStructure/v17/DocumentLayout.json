@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\QueueLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\QueueArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueueLinkedList.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueLinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\QueueLinkedList.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueLinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\QueueLinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-13T15:34:30.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueArray.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueArray.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\QueueArray.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueArray.cpp",
+              "RelativeToolTip": "DataStructure\\QueueArray.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-13T15:21:34.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataStructure.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\DataStructure.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
+              "RelativeToolTip": "DataStructure\\DataStructure.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-13T13:32:55.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
