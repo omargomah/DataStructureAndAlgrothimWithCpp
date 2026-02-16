@@ -16,7 +16,7 @@ class QueueLinkedList
 
 public:
 
-	QueueArray()
+	QueueLinkedList()
 	{
 		front = back = NULL;
 		length = 0;

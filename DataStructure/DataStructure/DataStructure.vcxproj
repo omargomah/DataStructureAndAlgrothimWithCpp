@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure.cpp" />
+    <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="ProblemsOnStack.cpp" />
     <ClCompile Include="QueueArray.cpp" />
     <ClCompile Include="QueueLinkedList.cpp" />
