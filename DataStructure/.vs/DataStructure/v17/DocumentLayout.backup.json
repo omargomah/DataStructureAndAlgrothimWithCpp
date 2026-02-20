@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\SingleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DynamicArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "DoubleLinkedList.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DoubleLinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\DoubleLinkedList.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DoubleLinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\DoubleLinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-20T21:44:20.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingleLinkedList.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\SingleLinkedList.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\SingleLinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-20T21:28:35.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DynamicArray.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DynamicArray.cpp",
               "RelativeDocumentMoniker": "DataStructure\\DynamicArray.cpp",
@@ -50,12 +84,11 @@
               "RelativeToolTip": "DataStructure\\DynamicArray.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-16T20:27:56.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T20:27:56.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "QueueLinkedList.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueLinkedList.cpp",
               "RelativeDocumentMoniker": "DataStructure\\QueueLinkedList.cpp",
@@ -63,12 +96,11 @@
               "RelativeToolTip": "DataStructure\\QueueLinkedList.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-13T15:34:30.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:34:30.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "QueueArray.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\QueueArray.cpp",
               "RelativeDocumentMoniker": "DataStructure\\QueueArray.cpp",
@@ -80,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataStructure.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeDocumentMoniker": "DataStructure\\DataStructure.cpp",
               "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeToolTip": "DataStructure\\DataStructure.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T13:32:55.295Z",
               "EditorCaption": ""
