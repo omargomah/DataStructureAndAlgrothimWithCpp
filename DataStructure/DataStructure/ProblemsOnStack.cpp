@@ -31,6 +31,17 @@ bool IsBalancedParathness(string exp)
     return s.empty();
 }
 
+int Precedence(char c)
+{
+    if (c == '^')
+        return 3;
+    else if (c == '*' || c == '/')
+        return 2;
+    else if (c == '+' || c == '-')
+        return 1;
+    return -1;
+}
+
 string ConvertFromInfixToPostfix(string exp)
 {
     stack<char> s;
@@ -39,26 +50,15 @@ string ConvertFromInfixToPostfix(string exp)
     for (int i = 0; i < exp.length(); i++)
     {
         x = exp[i];
-        if (exp[i] == '+' || exp[i] == '-' || exp[i] == '*' || exp[i] == '/' || exp[i] == '(' || exp[i] == ')')
+        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^' || x == '(' || x == ')')
         {
             if (s.empty() || x == '(')
                 s.push(x);
             else
             {
-                if (x == '+' || x == '-')
+                if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^')
                 {
-                    while (true)
-                    {
-                        if (s.top() == '*' || s.top() == '/' || s.top() == '(')
-                            break;
-                        result += s.top();
-                        s.pop();
-                    }
-                    s.push(x);
-                }
-                else if (x == '*' || x == '/')
-                {
-                    while (true)
+                    while (!s.empty() && Precedence(x) <= Precedence(s.top()))
                     {
                         if (s.top() == '(')
                             break;
@@ -88,5 +88,80 @@ string ConvertFromInfixToPostfix(string exp)
         result += s.top();
         s.pop();
     }
+    return result;
+}
+
+void ConvertFromDecimalToBinary(int num)
+{
+    stack<int> s;
+    while (num != 0)
+    {
+        s.push(num % 2);
+        num /= 2;
+    }
+    while (!s.empty())
+    {
+        cout << s.top();
+        s.pop();
+    }
+
+}
+
+double EvaluationPostFix(string exp)
+{
+    stack<double> s;
+    char x;
+    double num1, num2, result;
+    for (int i = 0; i < exp.length(); i++)
+    {
+        x = exp[i];
+        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^')
+        {
+            num2 = s.top();
+            s.pop();
+            num1 = s.top();
+            s.pop();
+            switch (x)
+            {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+            {
+                if (num2 == 0)
+                {
+                    cout << "you can't divide by zero" << endl;
+                    return NULL;
+                }
+                result = num1 / num2;
+                break;
+            }
+            case '^':
+                result = pow(num1, num2);
+                break;
+            default:
+                cout << "Invalid operation" << endl;
+                return NULL;
+            }
+            s.push(result);
+        }
+        else
+        {
+            if (x < 48 || x > 57)
+            {
+                cout << "Invalid operation" << endl;
+                return NULL;
+            }
+            s.push(x - '0');
+        }
+    }
+    result = s.top();
+    s.pop();
     return result;
 }

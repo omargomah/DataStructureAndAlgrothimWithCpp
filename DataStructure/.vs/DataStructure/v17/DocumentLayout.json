@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\ProblemsOnStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProblemsOnStack.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\ProblemsOnStack.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp",
+              "RelativeToolTip": "DataStructure\\ProblemsOnStack.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-24T09:12:53.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DataStructure.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeDocumentMoniker": "DataStructure\\DataStructure.cpp",
               "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeToolTip": "DataStructure\\DataStructure.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T13:32:55.295Z",
               "EditorCaption": ""
