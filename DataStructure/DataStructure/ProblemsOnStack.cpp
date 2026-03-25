@@ -165,3 +165,58 @@ double EvaluationPostFix(string exp)
     s.pop();
     return result;
 }
+
+int GetPriority(char op)
+{
+    if (op == '+' || op == '-')
+        return 1;
+    else if (op == '*' || op == '/')
+        return 2;
+    else if (op == '^')
+        return 3;
+    return 0;
+}
+string ConvertFromInfixToPrefix(string exp)
+{
+    stack<char> c;
+    char x;
+    string result;
+    for (int i = exp.length() - 1; i > -1; i--)
+    {
+        x = exp[i];
+        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^' || x == '(' || x == ')')
+        {
+            if (c.empty() || x == ')')
+                c.push(x);
+            else if (x == '(')
+            {
+                while (c.top() != ')')
+                {
+                    result = c.top() + result;
+                    c.pop();
+                }
+                c.pop();
+            }
+            else
+            {
+                while (!c.empty() && GetPriority(c.top()) > GetPriority(x))
+                {
+                    result = c.top() + result;
+                    c.pop();
+                }
+                c.push(x);
+            }
+        }
+        else
+            result = x + result;
+
+    }
+    while (!c.empty())
+    {
+        result = c.top() + result;
+        c.pop();
+    }
+    return result;
+
+
+}

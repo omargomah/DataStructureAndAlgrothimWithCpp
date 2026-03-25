@@ -123,12 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="DataStructure.cpp" />
     <ClCompile Include="DoubleLinkedList.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="ProblemsOnStack.cpp" />
     <ClCompile Include="QueueArray.cpp" />
     <ClCompile Include="QueueLinkedList.cpp" />
+    <ClCompile Include="RevsionToMidTerm.cpp" />
     <ClCompile Include="SingleLinkedList.cpp" />
     <ClCompile Include="StackWithArray.cpp" />
     <ClCompile Include="StackWithLinkedList.cpp" />
