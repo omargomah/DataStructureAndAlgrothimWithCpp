@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\ProblemsOnStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\RevsionToMidTerm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\RevsionToMidTerm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\SingleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Recursion.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\Recursion.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\Recursion.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\Recursion.cpp",
+              "RelativeToolTip": "DataStructure\\Recursion.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-02T20:17:42.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BST.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\BST.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
+              "RelativeToolTip": "DataStructure\\BST.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-02T17:05:41.719Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -38,28 +72,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RevsionToMidTerm.cpp",
-              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\RevsionToMidTerm.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\RevsionToMidTerm.cpp",
-              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\RevsionToMidTerm.cpp",
-              "RelativeToolTip": "DataStructure\\RevsionToMidTerm.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-25T12:11:17.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProblemsOnStack.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp",
               "RelativeDocumentMoniker": "DataStructure\\ProblemsOnStack.cpp",
               "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp",
               "RelativeToolTip": "DataStructure\\ProblemsOnStack.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-24T19:11:04.68Z",
+              "WhenOpened": "2026-04-02T12:03:19.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SingleLinkedList.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\SingleLinkedList.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SingleLinkedList.cpp",
+              "RelativeToolTip": "DataStructure\\SingleLinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwL4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-02T12:03:06.385Z",
               "EditorCaption": ""
             },
             {
@@ -70,7 +104,7 @@
               "RelativeDocumentMoniker": "DataStructure\\DataStructure.cpp",
               "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeToolTip": "DataStructure\\DataStructure.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwNEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T13:32:55.295Z",
               "EditorCaption": ""

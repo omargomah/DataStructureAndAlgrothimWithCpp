@@ -2,6 +2,16 @@
 #include <string>
 #include <stack>
 using namespace std;
+int GetPriority(char op)
+{
+    if (op == '+' || op == '-')
+        return 1;
+    else if (op == '*' || op == '/')
+        return 2;
+    else if (op == '^')
+        return 3;
+    return 0;
+}
 
 bool IsTheCloseOfOpen(char open, char close)
 {
@@ -31,62 +41,88 @@ bool IsBalancedParathness(string exp)
     return s.empty();
 }
 
-int Precedence(char c)
-{
-    if (c == '^')
-        return 3;
-    else if (c == '*' || c == '/')
-        return 2;
-    else if (c == '+' || c == '-')
-        return 1;
-    return -1;
-}
 
-string ConvertFromInfixToPostfix(string exp)
+string ConvertFromInfixToPostFix(string exp)
 {
-    stack<char> s;
-    string result = "";
+    stack<char> c;
     char x;
+    string result = "";
     for (int i = 0; i < exp.length(); i++)
     {
         x = exp[i];
         if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^' || x == '(' || x == ')')
         {
-            if (s.empty() || x == '(')
-                s.push(x);
+            if (c.empty() || x == '(')
+                c.push(x);
+            else if (x == ')')
+            {
+                while (c.top() != '(')
+                {
+                    result += c.top();
+                    c.pop();
+                }
+                c.pop();
+            }
             else
             {
-                if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^')
+                while (!c.empty() && GetPriority(c.top()) >= GetPriority(x))
                 {
-                    while (!s.empty() && Precedence(x) <= Precedence(s.top()))
-                    {
-                        if (s.top() == '(')
-                            break;
-                        result += s.top();
-                        s.pop();
-                    }
-                    s.push(x);
+                    result += c.top();
+                    c.pop();
                 }
-                else
-                {
-                    while (true)
-                    {
-                        if (s.top() == '(')
-                            break;
-                        result += s.top();
-                        s.pop();
-                    }
-                    s.pop();
-                }
+                c.push(x);
             }
         }
         else
             result += x;
     }
-    while (!s.empty())
+    while (!c.empty())
     {
-        result += s.top();
-        s.pop();
+        result += c.top();
+        c.pop();
+    }
+    return result;
+}
+
+
+string ConvertFromInfixToPrefix(string exp)
+{
+    stack<char> c;
+    char x;
+    string result = "";
+    for (int i = exp.length() - 1; i > -1; i--)
+    {
+        x = exp[i];
+        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^' || x == '(' || x == ')')
+        {
+            if (c.empty() || x == ')')
+                c.push(x);
+            else if (x == '(')
+            {
+                while (c.top() != ')')
+                {
+                    result = c.top() + result;
+                    c.pop();
+                }
+                c.pop();
+            }
+            else
+            {
+                while (!c.empty() && GetPriority(c.top()) > GetPriority(x))
+                {
+                    result = c.top() + result;
+                    c.pop();
+                }
+                c.push(x);
+            }
+        }
+        else
+            result = x + result;
+    }
+    while (!c.empty())
+    {
+        result = c.top() + result;
+        c.pop();
     }
     return result;
 }
@@ -165,58 +201,49 @@ double EvaluationPostFix(string exp)
     s.pop();
     return result;
 }
-
-int GetPriority(char op)
+int EvaluatePreFix(string exp)
 {
-    if (op == '+' || op == '-')
-        return 1;
-    else if (op == '*' || op == '/')
-        return 2;
-    else if (op == '^')
-        return 3;
-    return 0;
-}
-string ConvertFromInfixToPrefix(string exp)
-{
-    stack<char> c;
+    stack<double> s;
     char x;
-    string result;
     for (int i = exp.length() - 1; i > -1; i--)
     {
         x = exp[i];
-        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^' || x == '(' || x == ')')
+        if (x == '+' || x == '-' || x == '*' || x == '/' || x == '^')
         {
-            if (c.empty() || x == ')')
-                c.push(x);
-            else if (x == '(')
+            double num1 = s.top();s.pop();
+            double num2 = s.top();s.pop();
+            switch (x)
             {
-                while (c.top() != ')')
+            case '+':
+                s.push(num1 + num2);
+                break;
+            case '-':
+                s.push(num1 - num2);
+                break;
+            case '*':
+                s.push(num1 * num2);
+                break;
+            case '^':
+                s.push(pow(num1, num2));
+                break;
+            case '/':
+            {
+                if (num2 == 0)
                 {
-                    result = c.top() + result;
-                    c.pop();
+                    cout << "divide by zero invalid" << endl;
+                    return NULL;
                 }
-                c.pop();
+                s.push(num1 / num2);
+                break;
             }
-            else
-            {
-                while (!c.empty() && GetPriority(c.top()) > GetPriority(x))
-                {
-                    result = c.top() + result;
-                    c.pop();
-                }
-                c.push(x);
+            default:
+                cout << "invalid operation" << endl;
+                return NULL;
             }
         }
         else
-            result = x + result;
-
+            s.push(x - '0');
     }
-    while (!c.empty())
-    {
-        result = c.top() + result;
-        c.pop();
-    }
-    return result;
-
-
+    return s.top();
 }
+

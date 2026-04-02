@@ -48,5 +48,8 @@
     <ClCompile Include="RevsionToMidTerm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Recursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

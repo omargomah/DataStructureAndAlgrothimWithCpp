@@ -178,3 +178,159 @@ public:
 	}
 
 };
+
+class LinkedListV2
+{
+	struct Node
+	{
+		int data;
+		Node* Next;
+	};
+	Node* Head;
+public:
+	LinkedListV2()
+	{
+		Head = NULL;
+	}
+	bool IsEmpty()
+	{
+		return Head == NULL;
+	}
+	int Count()
+	{
+		int i = 0;
+		Node* temp = Head;
+		while (temp != NULL)
+		{
+			i++;
+			temp = temp->Next;
+		}
+		return i;
+	}
+	void InsertAtFirst(int item)
+	{
+		Node* newNode = new Node;
+		newNode->data = item;
+		newNode->Next = Head;;
+		Head = newNode;
+	}
+	void InsertAtLast(int item)
+	{
+		if (IsEmpty())
+		{
+			InsertAtFirst(item);
+			return;
+		}
+		Node* temp = Head, * newNode = new Node;
+		newNode->data = item;
+		newNode->Next = NULL;
+		while (temp->Next != NULL)
+			temp = temp->Next;
+		temp->Next = newNode;
+	}
+	void InsertAtAnyPosition(int pos, int item)
+	{
+		int size = Count();
+		if (pos < 0 || pos > size)
+			cout << "the index out of range" << endl;
+		else if (pos == 0)
+			InsertAtFirst(item);
+		else if (pos == size)
+			InsertAtLast(item);
+		else
+		{
+			Node* temp = Head, * newNode = new Node;
+			newNode->data = item;
+			for (int i = 0; i < pos - 1; i++)
+				temp = temp->Next;
+			newNode->Next = temp->Next;
+			temp->Next = newNode;
+		}
+	}
+	void Display()
+	{
+		Node* temp = Head;
+		while (temp != NULL)
+		{
+			cout << temp->data << " ";
+			temp = temp->Next;
+		}
+		cout << endl;
+	}
+	bool Search(int item)
+	{
+		Node* temp = Head;
+		while (temp != NULL)
+		{
+			if (temp->data == item)
+				return true;
+			temp = temp->Next;
+		}
+		return false;
+	}
+	void DeleteAtFirst()
+	{
+		if (IsEmpty())
+		{
+			cout << "the LinkedList is empty" << endl;
+			return;
+		}
+		Node* deleted = Head;
+		Head = Head->Next;
+		delete deleted;
+	}
+	void DeleteAtLast()
+	{
+		if (IsEmpty())
+		{
+			cout << "the LinkedList is empty" << endl;
+			return;
+		}
+		Node* deleted = Head, * prev = NULL;
+		while (deleted->Next != NULL)
+		{
+			prev = deleted;
+			deleted = deleted->Next;
+		}
+		if (prev == NULL)
+			DeleteAtFirst();
+		else
+		{
+			prev->Next = NULL;
+			delete deleted;
+		}
+	}
+	void DeleteAtAnyPosition(int pos)
+	{
+		int size = Count();
+		if (pos < 0 || pos >(size - 1))
+			cout << "the index out of range" << endl;
+		else if (pos == 0)
+			DeleteAtFirst();
+		else if (pos == size - 1)
+			DeleteAtLast();
+		else
+		{
+			Node* prev = Head, * deleted = NULL;
+			for (int i = 0; i < pos - 1; i++)
+				prev = prev->Next;
+			deleted = prev->Next;
+			prev->Next = deleted->Next;
+			delete deleted;
+		}
+	}
+	void Reverse()
+	{
+		if (IsEmpty())
+			return;
+		Node* prev = NULL, * cur = Head, * next = Head;
+		while (cur != NULL)
+		{
+			next = cur->Next;
+			cur->Next = prev;
+			prev = cur;
+			cur = next;
+		}
+		Head = prev;
+	}
+};
