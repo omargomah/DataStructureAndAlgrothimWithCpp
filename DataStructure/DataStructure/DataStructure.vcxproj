@@ -133,6 +133,7 @@
     <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="RevsionToMidTerm.cpp" />
     <ClCompile Include="SingleLinkedList.cpp" />
+    <ClCompile Include="SortAlgrothim.cpp" />
     <ClCompile Include="StackWithArray.cpp" />
     <ClCompile Include="StackWithLinkedList.cpp" />
   </ItemGroup>
