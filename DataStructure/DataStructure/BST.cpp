@@ -167,7 +167,7 @@ Node* Tree::DeletePrivate(int item, Node* r)
 		else
 		{
 			Node* min = FindMinPrivate(r->right);
-			r->item = min->item;
+			r->item = min->item; 
 			r->right = DeletePrivate(min->item, r->right);
 			return r;
 		}

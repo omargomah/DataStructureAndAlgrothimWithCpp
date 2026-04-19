@@ -132,6 +132,7 @@
     <ClCompile Include="QueueLinkedList.cpp" />
     <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="RevsionToMidTerm.cpp" />
+    <ClCompile Include="SearchAlgrothim.cpp" />
     <ClCompile Include="SingleLinkedList.cpp" />
     <ClCompile Include="SortAlgrothim.cpp" />
     <ClCompile Include="StackWithArray.cpp" />
