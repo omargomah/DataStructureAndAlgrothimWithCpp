@@ -57,5 +57,8 @@
     <ClCompile Include="SearchAlgrothim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AVLTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

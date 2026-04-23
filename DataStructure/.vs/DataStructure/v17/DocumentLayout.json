@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\DataStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DED4FEEB-7B95-4D50-A6F7-BB22CD3583F1}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BST.cpp",
-              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\BST.cpp",
-              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
-              "RelativeToolTip": "DataStructure\\BST.cpp",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-19T17:16:37.328Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -59,7 +50,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AVLTree.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\AVLTree.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\AVLTree.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\AVLTree.cpp",
+              "RelativeToolTip": "DataStructure\\AVLTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-23T12:20:57.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BST.cpp",
+              "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
+              "RelativeDocumentMoniker": "DataStructure\\BST.cpp",
+              "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\BST.cpp",
+              "RelativeToolTip": "DataStructure\\BST.cpp",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-19T17:16:37.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProblemsOnStack.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\ProblemsOnStack.cpp",
               "RelativeDocumentMoniker": "DataStructure\\ProblemsOnStack.cpp",
@@ -67,12 +83,11 @@
               "RelativeToolTip": "DataStructure\\ProblemsOnStack.cpp",
               "ViewState": "AgIAANgAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-19T12:02:47.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T12:02:47.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SearchAlgrothim.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SearchAlgrothim.cpp",
               "RelativeDocumentMoniker": "DataStructure\\SearchAlgrothim.cpp",
@@ -84,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SortAlgrothim.cpp",
               "DocumentMoniker": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\SortAlgrothim.cpp",
               "RelativeDocumentMoniker": "DataStructure\\SortAlgrothim.cpp",
@@ -102,7 +117,7 @@
               "RelativeDocumentMoniker": "DataStructure\\DataStructure.cpp",
               "ToolTip": "D:\\Level_3\\data_2\\Data Structure and Algrothim\\DataStructureAndAlgrothimWithCpp\\DataStructure\\DataStructure\\DataStructure.cpp",
               "RelativeToolTip": "DataStructure\\DataStructure.cpp",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAANkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T13:32:55.295Z",
               "EditorCaption": ""
